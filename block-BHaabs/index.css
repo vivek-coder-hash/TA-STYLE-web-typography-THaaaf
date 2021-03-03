@@ -41,3 +41,77 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto ;
+    padding: 0 32px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+body {
+   font-size: 16px;
+   line-height: 1.5;
+   background-color: #282e2b;
+   font-family: "Roboto";
+}
+
+h1 , h2 , h3 ,h4 ,h5 , h6 {
+    font-family: "Source Serif Pro" , serif;
+}
+
+.article-header {
+  padding: 32px 0;
+  color: white;
+
+}
+
+.article-header h1 {
+    font-size: 56px;
+    font-family: "Source Serif Pro" , serif;
+    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 48px;
+    text-transform: capitalize;
+}
+
+
+.article-header h3 {
+    font-size: 32px;
+    color: red;
+    font-weight: 700;
+}
+
+.article-header time {
+    font-size: 32px;
+}
+
+
+p{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+
+h2 {
+    font-size: 48px;
+    color: white;
+    margin-top: 48px;
+    text-shadow: 0 3px 12px rgba(0, 0, 0, 0.5);
+    margin-bottom: 16px;
+}
